@@ -1,0 +1,38 @@
+{
+  "name": "high-distortion-music-app5",
+  "version": "1.0.0",
+  "description": "A beautiful music streaming interface built with Cloudflare Workers - featuring the High Distortion playlist with a modern dark theme and responsive design.",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:staging": "wrangler deploy --env staging",
+    "tail": "wrangler tail",
+    "test": "wrangler dev --local"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "music",
+    "streaming",
+    "responsive",
+    "dark-theme",
+    "web-app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/high-distortion-music-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/high-distortion-music-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/high-distortion-music-app#readme"
+}
